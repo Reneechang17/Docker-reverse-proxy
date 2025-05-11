@@ -28,7 +28,7 @@ This is a minimal reverse proxy and container management system built with Node.
 
 ### System Architecture
 
-![Architecture](./static/Traefik Project Structure.jpg)
+![Architecture](https://github.com/Reneechang17/Docker-reverse-proxy/blob/main/static/Traefik%20Project%20Structure.jpg)
 
 ⬆️ The proxy listens on port `80` and forwards traffic to containers that are started and registered. Each container is exposed at a subdomain of `.localhost`.
 
